@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"block": "block/iron_door_top",
 		"particle": "block/iron_door_top"
