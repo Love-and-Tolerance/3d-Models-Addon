@@ -9,33 +9,33 @@
 			"from": [0, 0, 0],
 			"to": [16, 3, 16],
 			"faces": {
-				"north": {"uv": [15.99, 0.01, 0.01, 0.99], "texture": "#block"},
-				"east": {"uv": [15.02, 0.01, 16, 15.99], "rotation": 270, "texture": "#block"},
-				"south": {"uv": [15.99, 15.01, 0.01, 15.99], "rotation": 180, "texture": "#block"},
-				"west": {"uv": [0.01, 0.01, 0.99, 15.99], "rotation": 90, "texture": "#block"},
-				"up": {"uv": [15.99, 0.01, 0.01, 15.99], "rotation": 180, "texture": "#block"},
-				"down": {"uv": [0.01, 0.01, 16, 15.99], "texture": "#block"}
+				"north": {"uv": [15.99, 15.01, 0.01, 15.99], "texture": "#block"},
+				"east": {"uv": [15.02, 0.01, 16, 15.99], "rotation": 90, "texture": "#block"},
+				"south": {"uv": [15.99, 0.01, 0.01, 0.99], "rotation": 180, "texture": "#block"},
+				"west": {"uv": [0.01, 0.01, 0.99, 15.99], "rotation": 270, "texture": "#block"},
+				"up": {"uv": [0.01, 0.01, 16, 15.99], "texture": "#block"},
+				"down": {"uv": [15.99, 0.01, 0.01, 15.99], "rotation": 180, "texture": "#block"}
 			}
 		}
 	],
-    "display": {
+	"display": {
 		"thirdperson_righthand": {
-			"rotation": [68, -45, 0],
+			"rotation": [68, 135, 0],
 			"translation": [0, 3.25, 1.75],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [68, -45, 0],
+			"rotation": [68, 135, 0],
 			"translation": [0, 3.25, 1.75],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_righthand": {
-			"rotation": [6, 36, 0],
+			"rotation": [6, 126, 0],
 			"translation": [1, 2.5, -1.5],
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"firstperson_lefthand": {
-			"rotation": [6, 36, 0],
+			"rotation": [6, 126, 0],
 			"translation": [1, 2.5, -1.5],
 			"scale": [0.6, 0.6, 0.6]
 		},
@@ -44,14 +44,24 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [28, 45, 0],
+			"rotation": [28, -135, 0],
 			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
-			"rotation": [90, 0, 0]
+			"translation": [0, 14.5, 0]
 		},
 		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -4],
 			"scale": [0.5, 0.5, 0.5]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "trapdoor",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
 }
