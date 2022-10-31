@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"2": "block/soul_fire_lantern",
-		"particle": "block/soul_fire_lantern"
+		"2": "block/soul_lantern",
+		"particle": "block/soul_lantern"
 	},
 	"elements": [
 		{
