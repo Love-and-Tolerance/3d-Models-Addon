@@ -1,4 +1,5 @@
-{   "ambientocclusion": false,
+{   
+    "ambientocclusion": false,
 	"textures": {
 		"texture": "block/jungle_trapdoor",
 		"particle": "block/jungle_trapdoor"
