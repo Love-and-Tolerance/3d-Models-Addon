@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"top": "block/bell_top",
-		"bar": "entity/bell/bell_bar",
+		"bar": "block/bell_bar",
 		"body": "entity/bell/bell_body",
 		"particle": "item/bell"
 	},
